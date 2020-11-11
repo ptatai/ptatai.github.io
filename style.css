@@ -1,0 +1,83 @@
+
+body {
+    background: url(/assests/bg.jpg);    
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
+    
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    float: right;
+    margin-left: 25px;
+    text-align: right;
+    
+    
+}
+
+li a {    
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: right;
+}
+li a:hover {
+    background-color: #111;
+}
+
+
+h1 {
+    position: relative;
+    padding: 40px 0px 10px 70px;
+
+    text-align: left;
+}
+
+
+
+p {
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    
+}
+hr {
+    border-top: 3px double #8c8b8b;
+    width: 5%;
+}
+.cim {
+    position: relative;
+    
+}
+#logo1 {
+    position: fixed;
+    top:2px;
+    left: 10px;
+}
+
